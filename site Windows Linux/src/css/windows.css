@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    margin-top: 40px;
+    color: #333259;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+}
+.windows-description{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    padding: 16px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.windows{
+    width: 85%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 16px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.windows-header{
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom: black 1px;
+}
+.windows-header,.windows-header-nav{
+    background-color: #F3F3F3;
+}
+.windows-header h4{
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Segoe UI, serif;
+    font-weight: 350;
+    margin-left: 16px;
+}
+.windows-header-icons{
+    display: flex;
+    margin-right: 16px;
+    padding: 8px;
+
+}
+.windows-header-icons img:not(:last-child){
+    margin-right: 16px;
+}
+.windows-header-nav button{
+    color: black;
+    text-decoration: none;
+    border: none;
+    height: 40px;
+    padding: 16px;
+    font-family: Segoe UI, serif;
+    border-radius: 4px;
+}
+.windows-header-nav button:hover{
+    background-color: #DBDBDB;
+
+
+}
+.windows-header-nav{
+    padding-left: 8px;
+    padding-bottom: 4px;
+}
+.windows-content{
+    padding: 32px;
+    color: #1F1F26;
+    font-family: Segoe UI, serif;
+    font-weight: 350;
+}
+
+.windows-header-icons img:hover{
+    background-color: #DBDBDB;
+    border-radius: 4px;
+}
+.windows-content:not(#description){
+    display: none;
+}
+.windows_interfaces{
+    width: 70vw;
+}

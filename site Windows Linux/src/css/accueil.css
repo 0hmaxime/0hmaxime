@@ -1,0 +1,95 @@
+.definition-title, .exemples-title{
+    color: #333259;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+}
+.definition{
+    text-align: center;
+    margin-top: 40px;
+}
+.definition-paragraph{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    padding: 32px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.exemples-title{
+    text-align: center;
+    margin-top: 40px;
+}
+.exemples-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.exemples-buttons-windows{
+    grid-area: Windows;
+}
+.exemples-buttons-linux{
+    grid-area: Linux;
+
+}
+.exemples-button{
+    background-color: #4369D9;
+    text-align: center;
+
+    width: 15%;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    border-radius: 16px;
+}
+.exemples-button-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F6F6F6;
+    margin-top: 32px;
+
+}
+
+.exemples-other{
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.exemples-other a{
+    text-decoration: none;
+    color: #4369D9;
+}
+.exemples-other a:hover{
+    text-decoration: underline;
+}
+.exemples-recap-btn{
+    background-color: #4369D9;
+    width: 40%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px auto auto;
+}
+.exemples-recap-btn a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+.exemples-recap-btn:hover{
+    background-color: #303E8C;
+    transition: background-color 0.5s;
+    text-decoration: underline;
+}
+.exemples-button:hover{
+    background-color: #303E8C;
+    transition: background-color 0.5s;
+}

@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+    margin-top: 40px;
+    color: #333259;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+}
+.linux-description{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    padding: 16px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.linux{
+    width: 85%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3E3E3E;
+    border-radius: 16px;
+}
+.linux-header{
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.linux-header,.linux-header-nav{
+    background-color: #2C2C2C;
+}
+.linux-header h4{
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Ubuntu, serif;
+    font-weight: bold;
+    margin-left: 16px;
+    color: white;
+
+
+}
+.linux-header-icons{
+    display: flex;
+    margin-right: 16px;
+    padding: 8px;
+
+}
+.linux-header-icons img:not(:last-child){
+    margin-right: 16px;
+}
+.linux-header-nav button{
+    color: white;
+    text-decoration: none;
+    border: none;
+    height: 40px;
+    padding: 16px;
+    font-family: Ubuntu, serif;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.linux-header-nav button:hover{
+    background-color: #3E3E3E;
+
+
+}
+.linux-header-nav{
+    padding-left: 8px;
+    padding-bottom: 4px;
+}
+.linux-content{
+    padding: 32px;
+    color: white;
+    font-family: Ubuntu, serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.linux-header-icons img:hover{
+    background-color: #DBDBDB;
+    border-radius: 4px;
+}
+.linux-content:not(#description){
+    display: none;
+}
+.linux_interfaces{
+    width: 70vw;
+}

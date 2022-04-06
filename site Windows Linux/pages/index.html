@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Systèmes d'exploitation - Accueil</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="../src/css/navbar.css">
+    <link rel="stylesheet" href="../src/css/accueil.css">
+
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <!--
+    ####################################
+    |             Navbar
+    ####################################
+    -->
+    <nav>
+        <a href="index.html"><img src="../src/img/logo.png" height="40px" width="40px" alt="logo"></a>
+        <div class="nav_items">
+            <a href="index.html" class="nav_item" style="margin-right: 3%">Accueil</a>
+            <div class="dropdown" style="margin-right: 3%">
+                <button class="nav_item">Comparatif</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="windows.html" class="dropdown-list">Windows</a></li>
+                        <li><a href="linux.html" class="dropdown-list">Linux</a></li>
+                        <li><a href="recap.html" class="dropdown-list">Récapitulatif</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="about.html" class="nav_item">A Propos</a>
+        </div>
+    </nav>
+
+    <!--
+    ####################################
+    |             Accueil
+    ####################################
+    -->
+
+
+    <div class="definition">
+        <h1 class="definition-title">Qu’est ce qu’un Système d’exploitation ?</h1>
+        <p class="definition-paragraph">En informatique, un système d'exploitation est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs
+            <br>
+            Les systèmes d'exploitation les plus répandus sont Windows (pour les PC), Mac OS (pour les ordinateurs d'Apple), Linux (pour les PC et les serveurs) et Unix (pour les serveurs). Pour les téléphones, on trouve Android, iOS (chez Apple), Symbian et Windows Phone.</p>
+    </div>
+
+    <div class="exemples">
+        <h1 class="exemples-title">Des exemples de Systèmes d’exploitations </h1>
+        <div class="exemples-buttons">
+            <div class="exemples-buttons-windows exemples-button" onclick="location.href='windows.html';" style="cursor: pointer;">
+                <img src="../src/img/windows.png" alt="windows logo" height="144px">
+                <h2 class="exemples-button-title">Windows</h2>
+            </div>
+            <div class="exemples-buttons-linux exemples-button" onclick="location.href='linux.html';" style="cursor: pointer;">
+                <img src="../src/img/linux.png" alt="linux logo" height="144px">
+                <h2 class="exemples-button-title">Linux</h2>
+            </div>
+        </div>
+        <p class="exemples-other">Mais il en existe d'autres ! <br> <a target="_blank" href="https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes_d%27exploitation">(voir Wikipédia)</a></p>
+        <p class="exemples-recap-btn"><a href="recap.html">Voir le récapitulatif</a></p>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

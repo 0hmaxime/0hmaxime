@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Systèmes d'exploitation - Linux</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="../src/css/navbar.css">
+    <link rel="stylesheet" href="../src/css/linux.css">
+    <script src="../src/js/tabs.js" defer></script>
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!--
+    ####################################
+    |             Navbar
+    ####################################
+    -->
+    <nav>
+        <a href="index.html"><img src="../src/img/logo.png" height="40px" width="40px" alt="logo"></a>
+        <div class="nav_items">
+            <a href="index.html" class="nav_item" style="margin-right: 3%">Accueil</a>
+            <div class="dropdown" style="margin-right: 3%">
+                <button class="nav_item">Comparatif</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="windows.html" class="dropdown-list">Windows</a></li>
+                        <li><a href="linux.html" class="dropdown-list">Linux</a></li>
+                        <li><a href="recap.html" class="dropdown-list">Récapitulatif</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="about.html" class="nav_item">A Propos</a>
+        </div>
+    </nav>
+
+    <!--
+    ####################################
+    |          linux
+    ####################################
+    -->
+
+    <h1 class="linux-page-title">Linux (Ubuntu)</h1>
+    <p class="linux-description">Ubuntu est un système d’exploitation GNU/Linux basé sur Debian. Il est développé, commercialisé et maintenu par la société Canonical.</p>
+
+    <div class="linux">
+        <div class="linux-header">
+            <h4>Informations_Linux.elf</h4>
+            <div class="linux-header-icons">
+                <img src="../src/img/linux_minimize.svg" alt="hide icon" width="15px">
+                <img src="../src/img/linux_maximize.svg" alt="expand icon" width="15px">
+                <img src="../src/img/linux_close.svg" alt="close icon" width="15px">
+            </div>
+        </div>
+        <div class="linux-header-nav">
+            <button class="windows-links" onclick="hide_show_linux(event, 'description')">Description</button>
+            <button class="windows-links" onclick="hide_show_linux(event, 'interfaces')">Interfaces</button>
+            <button class="windows-links" onclick="hide_show_linux(event, 'performance')">Performances</button>
+        </div>
+        <div class="linux-content" id="description">
+            <p>Ubuntu est proposé gratuitement sous forme d'image disque permettant de créer un live CD ou live USB afin de tester Ubuntu sans installation et sans modifier le système utilisé. L'interface utilisateur est disponible en 146 langues nationales ou régionales (mars 2016). Une nouvelle version sort tous les six mois avec un support de 9 mois. Tous les deux ans (en avril des années paires), la version est une version avec support à long terme dit LTS (long term support) qui est maintenue pendant cinq ans.
+                <br>
+                Il inclut un ensemble de logiciels pré-installés (LibreOffice, Firefox, etc.) et sa logithèque permet d’installer toute une gamme de logiciels correspondant aux besoins de chaque utilisateur. À noter que la plate-forme Steam comporte plus de 4 500 jeux vidéo compatibles avec Ubuntu. La plupart des applications pour Windows peuvent également être installées grâce à Wine ou à VirtualBox. </p>
+        </div>
+        <div class="linux-content" id="interfaces">
+            <p>Avec Ubuntu, il n'y a pas de limites dans la personnalisation, chaque utilisateur peut personnaliser comme il le souhaite son système.</p>
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/VirtualBox_Ubuntu_21.10_15_10_2021_13_19_12_ENG.png/1920px-VirtualBox_Ubuntu_21.10_15_10_2021_13_19_12_ENG.png" alt="" class="linux_interfaces">
+        </div>
+        <div class="linux-content" id="performance">
+            <p>Ubuntu, est un système d'exploitation assez léger, il s'adapte facilement à des ordinateurs assez anciens. Cependant, il ne permet pas de lancer tous les jeux, car ceux-ci ne sont pas constamment distribués sous Linux. Néanmoins, Ubuntu permet sans soucis de réaliser toutes les tâche de bureautiques "classiques" et plus avancés. (développement informatique, ...)</p>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

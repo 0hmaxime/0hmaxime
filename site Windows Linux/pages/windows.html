@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Systèmes d'exploitation - Windows</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="../src/css/navbar.css">
+    <link rel="stylesheet" href="../src/css/windows.css">
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
+
+    <script src="../src/js/tabs.js" defer></script>
+</head>
+<body>
+
+    <!--
+    ####################################
+    |             Navbar
+    ####################################
+    -->
+    <nav>
+        <a href="index.html"><img src="../src/img/logo.png" height="40px" width="40px" alt="logo"></a>
+        <div class="nav_items">
+            <a href="index.html" class="nav_item" style="margin-right: 3%">Accueil</a>
+            <div class="dropdown" style="margin-right: 3%">
+                <button class="nav_item">Comparatif</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="windows.html" class="dropdown-list">Windows</a></li>
+                        <li><a href="linux.html" class="dropdown-list">Linux</a></li>
+                        <li><a href="recap.html" class="dropdown-list">Récapitulatif</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="about.html" class="nav_item">A Propos</a>
+        </div>
+    </nav>
+
+    <!--
+    ####################################
+    |          Windows
+    ####################################
+    -->
+
+    <h1 class="windows-page-title">Windows 10 / 11 (Microsoft)</h1>
+    <p class="windows-description">Windows 10 est un système d'exploitation de la famille Windows NT développé par la société américaine Microsoft. Officiellement présenté le 30 septembre 2014, il est disponible publiquement depuis le 29 juillet 2015.</p>
+
+    <div class="windows">
+        <div class="windows-header">
+            <h4>Informations_Windows.exe</h4>
+            <div class="windows-header-icons">
+                <img src="../src/img/windows_minimize.svg" alt="hide icon" width="15px">
+                <img src="../src/img/windows_maximize.svg" alt="expand icon" width="15px">
+                <img src="../src/img/windows_close.svg" alt="close icon" width="15px">
+            </div>
+        </div>
+        <div class="windows-header-nav">
+            <button class="windows-links" onclick="hide_show(event, 'description')">Description</button>
+            <button class="windows-links" onclick="hide_show(event, 'interfaces')">Interfaces</button>
+            <button class="windows-links" onclick="hide_show(event, 'performance')">Performances</button>
+        </div>
+        <div class="windows-content" id="description">
+            <p>Windows 11 est disponible sous forme de mise à niveau gratuite vers les appareils compatibles sous Windows 10 via Windows Update, mais aussi pour les systèmes Windows 7, 8 et 8.1. Le déploiement de la mise à niveau vers Windows 11 a débuté le 5 octobre 2021 (pour les nouveaux appareils) et se poursuivra jusqu’en 2022 (pour les appareils compatibles), selon différentes annonces de Microsoft.
+                Windows 11 est le successeur de Windows 10, sorti en 2015.</p>
+        </div>
+        <div class="windows-content" id="interfaces">
+            <img src="https://cdn.futura-sciences.com/buildsv6/images/wide1920/d/0/b/d0b155ea01_50177866_w112.jpg" alt="" class="windows_interfaces">
+        </div>
+        <div class="windows-content" id="performance">
+            <p>Windows, permet de réalisé n'importe quels taches, que ce soit du traitement de texte, des jeux vidéos, ou bien de simple recherche internet. Cependant, Windows est plutot gourmand en ressources systèmes ce qui ne permet pas de le lancer sur n'importe quel ordinateur</p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
